@@ -22,9 +22,9 @@ function CityInput({city,setCity,fetchCityWeather}) {
     <Container>
       <Form>
         <Form.Group controlId="formBasicText">
-          <Form.Label>
+          
             <h1 className="text_success">Enter Your City Here</h1>
-          </Form.Label>
+          
           
           <Form.Control
           value={city}
