@@ -21,9 +21,10 @@ function CityWeather() {
             <h2 id="Pressure"></h2>
             <h2 id="Teamperature"></h2>
           </div>
-          Teamperature
-          <hr />
+          
           <div className="temp">
+             Teamperature
+            <hr />
             <h2 id="Max_Temp"></h2>
             <h2 id="Min_Temp"></h2>
           </div>
