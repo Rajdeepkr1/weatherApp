@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 import { Button, Container, Form } from "react-bootstrap";
 function CityInput({city,setCity,fetchCityWeather}) {
   
