@@ -13,11 +13,11 @@ function CityWeather() {
             <h2 id="Feels_like"></h2>
             <h2 id="Humidity"></h2>
           </div>
-          <div className="temp1">
+          <div className="temp">
             <h2 id="Pressure"></h2>
             <h2 id="Teamperature"></h2>
           </div>
-          <div className="temp2">
+          <div className="temp">
             <h2 id="Max_Temp"></h2>
             <h2 id="Min_Temp"></h2>
           </div>
