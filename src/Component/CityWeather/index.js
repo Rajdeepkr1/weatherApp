@@ -10,20 +10,20 @@ function CityWeather() {
         <div className="containr">
           
           <div className="temp">
-            Humidity
+            <h1> Humidity</h1>
             <hr />
             <h2 id="Feels_like"></h2>
             <h2 id="Humidity"></h2>
           </div>
           <div className="temp">
-           Pressure
+           <h1>Pressure</h1>
             <hr />
             <h2 id="Pressure"></h2>
             <h2 id="Teamperature"></h2>
           </div>
           
           <div className="temp">
-             Teamperature
+            <h1>Teamperature</h1>
             <hr />
             <h2 id="Max_Temp"></h2>
             <h2 id="Min_Temp"></h2>
