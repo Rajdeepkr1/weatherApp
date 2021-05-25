@@ -3,34 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2%;
-    text-align: center;
-    width: 70%;
-    height: 80%;
-    border: 2px solid cyan;
-    border-radius:30px 10px;
-    background-image:url(https://cdn.wallpapersafari.com/70/76/xU0Aa9.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: grayscale(30%);
-  color: rgb(16, 189, 22);
-  font-weight:bolder ;
+.head{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    padding: 1em;
+  background-color: green;
+  background: linear-gradient(90deg,rgb(58, 128, 58),rgb(139, 101, 30),rgb(134, 94, 101),rgb(248, 83, 83),rgb(129, 78, 87),rgb(145, 114, 57),rgb(37, 126, 37));
+  color: white;
+  text-align: center;
+  border-radius: 9px;
+
 
 }
+.containr{
+   
+  height: 20em;
+  
+  margin-left: 5em;
+    margin-right: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+ 
+}
 .temp{
-    margin-left: 5px;
-    color: crimson;
-    text-align: left;
-}
-.temp1{
-    color: rgb(243, 150, 11);
-    
-}
-.temp2{
-    margin-right: 5px;
-    color: crimson;
-    text-align: right;
+    color: rgb(52, 58, 16);
+  text-align: center;
+  border: 2px solid red;
+  
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px greenyellow;
+    padding: 1em;
+    border-radius: 9px;
+    width: 20em;
+    background: linear-gradient(90deg,rgb(58, 128, 58),rgb(139, 101, 30),rgb(134, 94, 101),rgb(248, 83, 83),rgb(129, 78, 87),rgb(145, 114, 57),rgb(37, 126, 37));
 }
